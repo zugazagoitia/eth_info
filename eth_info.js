@@ -25,7 +25,7 @@
     setInterval(function() {
 
 
-        // API de GDAX para ETH-EUR
+        // GDAX API for ETH-EUR
         http({
             url: 'https://api.gdax.com/products/ETH-EUR/ticker'
         }, function(err, res) {
